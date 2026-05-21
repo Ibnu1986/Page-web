@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <title>Ibnu Ngasim</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<div class="cursor-glow"></div>
+<body>
+
+<div id="particles"></div>
+
+<!-- PREMIUM LOADER -->
+<div id="loader">
+
+  <div class="loader-content">
+
+    <div class="loader-logo">
+      Ibnu <span>Ngasim</span>
+    </div>
+
+    <div class="loader-bar">
+      <div class="loader-progress"></div>
+    </div>
+
+    <p>Loading Premium Experience...</p>
+
+  </div>
+
+</div>
+
+<div class="blur1"></div>
+<div class="blur2"></div>
+
+<!-- HEADER -->
+  <header>
+
+  <div class="logo">
+    Ibnu <span>Ngasim</span>
+  </div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <nav>
+
+  <nav>
+
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+
+</nav>
+
+  <a href="#portfolio" class="btn">
+  Explore Portfolio
+</a>
+
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+  <div class="hero-text">
+
+    <div class="tag">
+      Premium Modern Website
+    </div>
+
+    <h1>
+  <span id="typing"></span>
+</h1>
+
+    <p>
+      Halo, saya Ibnu Ngasim. Saya menyukai dunia teknologi,
+      Android, website modern, dan pengembangan digital kreatif.
+    </p>
+
+    <div class="hero-btns">
+      <button class="btn">Explore Portfolio</button>
+      <button class="btn2">Contact Me</button>
+    </div>
+
+  </div>
+
+  <div class="hero-image">
+
+    <div class="float f1">UI Modern</div>
+    <div class="float f2">Premium Design</div>
+    <div class="float f3">Responsive</div>
+
+    <div class="card">
+      <img src="foto.jpg" alt="">
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+
+  <div class="section-title">
+    <p>ABOUT ME</p>
+    <h2>Modern Creator & Tech Enthusiast</h2>
+  </div>
+
+  <div class="about-box">
+    Saya fokus pada pengembangan website modern,
+    desain clean premium, dan eksplorasi teknologi Android.
+  </div>
+
+</section>
+<!-- STATS -->
+<section class="section">
+
+  <div class="stats-container">
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="120">0</h2>
+      <p>Projects</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="80">0</h2>
+      <p>Clients</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="5">0</h2>
+      <p>Years Experience</p>
+    </div>
+
+  </div>
+
+</section>
+<!-- SKILLS -->
+<section class="section" id="skills">
+
+  <div class="section-title">
+    <p>MY SKILLS</p>
+    <h2>What I Can Do</h2>
+  </div>
+
+  <div class="skills">
+
+    <div class="skill-card">
+      <div class="icon"></div>
+      <h3>Modern UI Design</h3>
+      <p>Membuat desain website clean dan premium.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon"></div>
+      <h3>Frontend Development</h3>
+      <p>Membangun website responsive modern.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon"></div>
+      <h3>Creative Content</h3>
+      <p>Membuat konten kreatif teknologi.</p>
+    </div>
+
+  </div>
+
+</section><!-- SKILLS -->
+<section class="section" id="skills">
+
+  <div class="section-title">
+    <p>MY SKILLS</p>
+    <h2>Professional Skills</h2>
+  </div>
+
+  <div class="skills-box">
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>HTML</span>
+        <span>95%</span>
+      </div>
+
+      <div class="skill-bar">
+        <div class="skill-progress html"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>CSS</span>
+        <span>90%</span>
+      </div>
+
+      <div class="skill-bar">
+        <div class="skill-progress css"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>JavaScript</span>
+        <span>85%</span>
+      </div>
+
+      <div class="skill-bar">
+        <div class="skill-progress js"></div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- PORTFOLIO -->
+<section class="section" id="portfolio">
+
+  <div class="section-title">
+    <p>PORTFOLIO</p>
+    <h2>My Recent Projects</h2>
+  </div>
+
+  <div class="portfolio-grid">
+
+      <div class="portfolio-card"
+       onclick="openModal(this)">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop">
+      <div class="portfolio-content">
+        <h3>Modern Website</h3>
+        <p>Premium responsive website design.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-card"
+     onclick="openModal(this)">
+      <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop">
+      <div class="portfolio-content">
+        <h3>Mobile UI Design</h3>
+        <p>Modern mobile application interface.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-card"
+     onclick="openModal(this)">
+      <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop">
+      <div class="portfolio-content">
+        <h3>Creative Project</h3>
+        <p>Creative digital technology project.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- CONTACT -->
+<section class="section" id="contact">
+
+  <div class="section-title">
+    <p>CONTACT</p>
+    <h2>Let's Work Together</h2>
+  </div>
+
+  <div class="contact-container">
+
+    <div class="contact-card">
+      <h3>Get In Touch</h3>
+
+      <p>Email: ibnungasim6@gmail.com</p>
+      <p>Phone: +62 85876197392</p>
+      <p>Location: Indonesia</p>
+
+      <div class="footer-socials">
+
+  <a href="https://instagram.com/ibnungasim6" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="tiktok.com/@ibnungasim.elektro" target="_blank">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <a href="https://github.com/Ibnu1986/ibnu1986.github.io" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+
+</div>
+
+    </div>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="Your Email">
+
+      <textarea placeholder="Your Message"></textarea>
+
+      <button class="btn">
+        Send Message
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+<!-- FOOTER -->
+<footer class="premium-footer">
+
+  <div class="footer-glow"></div>
+
+  <div class="footer-content">
+
+    <h2>
+      Ibnu <span>Ngasim</span>
+    </h2>
+
+    <p>
+      Modern Portfolio Website with Premium UI Design
+    </p>
+
+    <div class="footer-links">
+
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+    <div class="footer-socials">
+
+  <a href="https://instagram.com/ibnungasim6" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://tiktok.com/@ibnungasim.elektro" target="_blank">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <a href="https://github.com/ibnu1986" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+
+</div>
+
+    <div class="footer-copy">
+      © <span id="year"></span> Ibnu Ngasim. All rights reserved.
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- FLOAT BUTTON -->
+<button class="music-btn" onclick="toggleMusic()">
+  🎵
+</button>
+
+<button class="dark-btn" onclick="toggleDark()">
+  🌙
+</button>
+
+<button class="top-btn" onclick="scrollToTop()">
+  ↑
+</button>
+
+<!-- AUDIO -->
+<audio id="bgMusic" loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=lofi-study-112191.mp3" type="audio/mp3">
+</audio>
+
+<script src="script.js"></script>
+<!-- PORTFOLIO MODAL -->
+<div class="portfolio-modal" id="portfolioModal">
+
+  <span class="close-modal" onclick="closeModal()">
+    &times;
+  </span>
+
+  <img id="modalImage">
+
+</div>
+</body>
+<div id="progress-bar"></div>
+</html>
